@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: var(--vinho);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--branco)
+}
+
+#root {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 48px 1fr 64px;
+}
+
+:root {
+--vinho: rgb(58,28,33);
+--preto: rgb(31,31,31);
+--branco: rgb(254,254,253);
+--vinho-fraco: rgb(88,52,62);
+--dourado: rgb(235,186,85);
+--dourado-forte-contornos: rgb(245,134,52);
+--vermelho: rgb(237,50,55);
+--verde: rgb(0,168,89);
+}
+
