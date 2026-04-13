@@ -5,11 +5,11 @@
 }
 
 .botao-customizado__primario {
-  background-color: var(--dourado);
-  color: var(--vinho);
+  background-color: var(--cor-primaria);
+  color: var(--cor-texto-claro);
 }
 
 .botao-customizado__secundario {
-  background-color: var(--verde);
-  color: var(--vinho);
+  background-color: var(--cor-secundaria);
+  color: var(--cor-texto-claro);
 }

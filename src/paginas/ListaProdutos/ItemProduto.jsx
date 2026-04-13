@@ -1,18 +1,24 @@
 import "./ItemProduto.css";
 
 function ItemProduto({ produto }) {
-    return (<div className="item-produto_root">
-        <span>{produto.nome}</span>
-        <span>R$ {produto.preco.toFixed(2)}</span>
-        <div className="item-produto__cores">
+  return (
+    <div className="item-produto__root">
+      <span>{produto.nome}</span>
+      <span>{produto.preco}</span>
+
+      <div className="item-produto__cores">
         {produto.cores.map((aquarela, contagem) => {
-            return (
-                <div key={contagem} className="item-produto__cor" style={{ backgroundColor: aquarela }}/>
-            );
+          return (
+            <div
+              key={contagem}
+              className="item-produto__cor"
+              style={{ backgroundColor: aquarela }}
+            />
+          );
         })}
-        </div>
+      </div>
     </div>
-    );
-};
+  );
+}
 
 export default ItemProduto;

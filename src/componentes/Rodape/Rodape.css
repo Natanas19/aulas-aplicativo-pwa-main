@@ -1,8 +1,8 @@
 .rodape__root {
-  background-color: var(--vinho);
+  background-color: var(--cor-primaria-clara);
   font-size: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--branco)  
+  color: var(--cor-texto-claro)  
 }

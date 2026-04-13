@@ -7,9 +7,9 @@
 html,
 body {
   height: 100%;
-  background-color: var(--vinho);
+  background-color: var(--cor-fundo-padrao);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: var(--branco)
+  color: var(--cor-texto-padrao)
 }
 
 #root {
@@ -19,13 +19,23 @@ body {
 }
 
 :root {
---vinho: rgb(58,28,33);
---preto: rgb(31,31,31);
---branco: rgb(254,254,253);
---vinho-fraco: rgb(88,52,62);
---dourado: rgb(235,186,85);
---dourado-forte-contornos: rgb(245,134,52);
---vermelho: rgb(237,50,55);
---verde: rgb(0,168,89);
-}
+ --cor-primaria-clara: #7986cb;
+ --cor-primaria: #3f50b5;
+ --cor-primaria-escura: #303f9f;
 
+ --cor-secundaria-clara: #ffab40;
+ --cor-secundaria: #ff9100;
+ --cor-secundaria-escura: #ff6d00;
+
+ --cor-fundo-padrao: #f7f7f7;
+
+ --cor-texto-padrao: #1c2025;
+ --cor-texto-claro: #fff;
+
+ --cor-info: #0288d1;
+ --cor-sucesso: #1aa251;
+ --cor-aviso: #dea500;
+ --cor-erro: #eb0014;
+
+ --cor-cinza: #99a7bb;
+}
