@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📱 Aulas - Programação de Aplicativos - Curso Técnico em Programação do SENAI/SC
 
 ![React](https://img.shields.io/badge/React-19-blue?logo=react)
@@ -83,3 +84,7 @@ Projeto desenvolvido por **Thiago Cordeiro** para as aulas do **Curso Técnico e
 # 📄 Licença
 
 Este projeto é destinado a **uso educacional**.
+=======
+# aulas-aplicativo-pwa-main
+Projeto React do zero
+>>>>>>> 400efc97173500c47269419df68e1654479a6078
